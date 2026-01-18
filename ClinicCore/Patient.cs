@@ -25,7 +25,7 @@ namespace ClinicCore
             // Если текущая дата меньше дня рождения в текущем году, вычитаем год
 
             if (BirthDate.Date > today.AddYears(-age))
-                age--;
+                age++;
             return age;
         }
     }
