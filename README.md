@@ -12,7 +12,8 @@ int age = patient.CalculateAge();
 
 Console.WriteLine($\"Возраст пациента: {age}\");
 
-
 Логика расчета возраста реализована по следующей схеме:
 
 ![Блок-схема расчета возраста](docs/algorithm.png)
+
+[![Publish Docs to GitHub Pages](https://github.com/miekkoa/ClinicSolution-Learning/actions/workflows/docs-deploy.yml/badge.svg)](https://github.com/miekkoa/ClinicSolution-Learning/actions/workflows/docs-deploy.yml)
