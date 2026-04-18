@@ -22,20 +22,26 @@ nav:
 
   - Главная: index.md
 
-  - Руководство пользователя:
+  - Руководство оператора (ГОСТ 19.505): 
 
-      - Быстрый старт: user-guide/getting-started.md
+      - 1. Титульный лист: gost/00-title.md
 
-      - Словарь терминов: user-guide/glossary.md
+      - 2. Назначение программы: gost/01-purpose.md
 
-  - Разработчику:
+      - 3. Условия выполнения: gost/02-conditions.md
 
-      - Архитектура: developer/architecture.md
+      - 4. Выполнение программы: gost/03-execution.md
 
-      - API: developer/api.md
+      - 5. Сообщения оператору: gost/04-messages.md
 
-      
-  markdown_extensions:
+  
+  - Справочник разработчика:
+
+      - API Reference: developer/api.md
+
+
+markdown_extensions:
+
   - pymdownx.arithmatex:
 
       generic: true
@@ -48,3 +54,13 @@ extra_javascript:
 
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
+
+plugins:
+
+  - search
+
+  - print-site:
+
+      add_to_navigation: true
+
+      print_page_title: 'Печать документации (PDF)'
