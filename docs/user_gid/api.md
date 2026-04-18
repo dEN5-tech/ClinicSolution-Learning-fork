@@ -38,7 +38,7 @@
 
 * **Исключения:**
 
-    * `DivideByZeroException` — возникает, если свойство `Height` <= 0.
+* `DivideByZeroException` — возникает, если свойство `Height` <= 0.
 
 !!! warning "Внимание"
 
