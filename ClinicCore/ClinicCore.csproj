@@ -9,7 +9,7 @@
 
          .. означает "на уровень выше", выходим из папки кода в папку docs -->
 
-		<DefaultDocumentationFolder>ClinicSolution-Learning\docs\user_gid\auto-api\Patient.md</DefaultDocumentationFolder>
+		<DefaultDocumentationFolder>..docs\user_gid\auto-api</DefaultDocumentationFolder>
 
 
 
