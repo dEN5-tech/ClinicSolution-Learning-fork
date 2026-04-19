@@ -37,7 +37,12 @@ nav:
   
   - Справочник разработчика:
 
-      - API Reference: developer/api.md
+      - Введение в API: user_gid/api.md  # Наш старый ручной файл
+
+      - Авто-справочник классов:
+
+          - Класс Patient: user_gid/auto-api/Patient.md # Новый авто-файл
+
 
 
 markdown_extensions:

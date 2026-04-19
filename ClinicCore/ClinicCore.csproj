@@ -1,9 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<!-- Указываем, куда сохранять готовый Markdown файл.
+
+         .. означает "на уровень выше", выходим из папки кода в папку docs -->
+
+		<DefaultDocumentationFolder>ClinicSolution-Learning\docs\user_gid\auto-api\Patient.md</DefaultDocumentationFolder>
+
+
+
+		<!-- Имя генерируемого файла -->
+
+		<DefaultDocumentationGeneratedPagesType>Markdown</DefaultDocumentationGeneratedPagesType>
+
+		<DefaultDocumentationFileName>Patient.md</DefaultDocumentationFileName>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DefaultDocumentation" Version="1.2.4" />
+	</ItemGroup>
 
 </Project>

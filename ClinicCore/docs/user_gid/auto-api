@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClinicCore</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "P:ClinicCore.Patient.Weight" -->
+        <!-- Badly formed XML comment ignored for member "P:ClinicCore.Patient.BloodType" -->
+        <!-- Badly formed XML comment ignored for member "M:ClinicCore.Patient.CalculateBMI" -->
+    </members>
+</doc>
