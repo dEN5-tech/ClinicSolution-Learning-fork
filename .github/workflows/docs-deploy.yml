@@ -1,4 +1,4 @@
-name: Publish Docs to GitHub Pages
+name: Publish Docs to GitHub Page
 
 # Триггер: запускать только при изменениях в папке docs или конфиге,
 
